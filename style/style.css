@@ -324,6 +324,7 @@ nav {
 
 #stats i {
   font-size: 4.5rem;
+  font-weight: bold;
   display: inline-block;
   padding: 0 3rem;
   position: absolute;
