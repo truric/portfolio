@@ -1,2 +1,3 @@
 # Portfolio
-School Assignment 
+School Assignment
+It has some easter eggs (ง '̀͜ '́ )ง
