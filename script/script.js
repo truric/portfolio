@@ -133,19 +133,19 @@ lightbox.addEventListener('click', function(e) {
 
 
 
-
+// sound config
 var track = new Audio();
-track.volume = 0.05;
+track.volume = 0.013;
 track.src = "assets/Guile_Theme.mp3";
 
 var trackwiggle = new Audio();
-trackwiggle.volume = 0.08;
+trackwiggle.volume = 0.025;
 trackwiggle.src = "assets/wiggle_wiggle.mp3";
 
-function stopAudio() {
+/*function stopAudio() {
 	track.stop();
 	trackwiggle.stop();
-}
+}*/
 
 
 
