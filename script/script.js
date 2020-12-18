@@ -1,5 +1,5 @@
 // used JS lib. SuperSlides previously which has 2k more lines but just wanted to post this solution
-// which is everywhere from youtube to stackoverflow this is what must users are using, so, it's not mine
+// which is what most users everywhere from youtube to stackoverflow are using, so, it's not mine
 let sliderImages = document.querySelectorAll('.slide'),
 	arrowLeft = document.querySelector('#arrow-left'),
 	arrowRight = document.querySelector('#arrow-right'),
