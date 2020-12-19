@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-
   <meta charset="UTF-8">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Miguel Silva, Web Design assignment, Atec4life">
+  <meta name="description" content="Web Design assignment: personal Portfolio">
+  <meta name="author" content="Ricardo Parada TPSI05.20 Atec 2020">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portoflio RP</title>
   <script src="https://kit.fontawesome.com/fdd37d6174.js" crossorigin="anonymous"></script>
@@ -16,7 +18,7 @@
       <div class="heading-text-box">
         <h1 class="heading-title">
           Ricardo Parada
-          <span class="txt-type sub-heading" data-wait="3000" data-words='["A Student", "Web Developer", "Software Engineer"]'></span>
+          <span class="txt-type sub-heading" data-words='["A Student", "Web Developer (NOT)", "Software Engineer (NOT)"]' data-wait="2500"></span>
         </h1>
       </div>
       <div id="arrow-left" class="arrow"></div>
@@ -71,7 +73,7 @@
     <section id="about" class="about">
       <div class="about-screen" onmousedown="track.pause()"></div>
       <div class="about-img">
-        <img src="./assets/RP_selfie.jpg" alt="./assets/mona_rp.jpg">
+        <img src="./assets/RP_selfie.jpg" alt="./assets/mona_rp.jpg"> <!--Maybe Mono Liso can be summoned?-->
       </div>
       <div class="about-text">
         <h4 class="about-heading">About Me</h4>
@@ -262,8 +264,8 @@
       <div class="form-box">
         <h4 class="contact-heading">Get in touch!</h4>
 
-        <form>
-          <div class="input-group">
+        <form autocomplete="off">
+          <div class="input-group" autocomplete="off">
             <label id="name">Name:</label>
             <input type="text" placeholder="Your name..." minlength="2" maxlength="30" required autocomplete="off"/>
           </div>
