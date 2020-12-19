@@ -114,7 +114,7 @@ nav {
   font-weight: 300;
   border-bottom: 3px solid transparent;
   padding-bottom: 0.5rem;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; /*because awesome*/
   font-weight: bold;
 }
 
@@ -149,7 +149,8 @@ cursor: pointer;
     margin-left: 1.5rem;
     padding-top: 0.5rem;
   }
-
+  /*nav-list appears from burger,
+  it used to be just a white rectangle but this looks so much better*/
   .nav-list {
     display: block;
     position: absolute;
@@ -201,10 +202,9 @@ cursor: pointer;
 
   .nav-link {
     color: #1e90ff;
-
     transition: all 0.3s ease-in;
   }
-
+  /*same underline effect as nav non-mobile*/
   .nav-link:hover {
     border-bottom: 3px solid #1e90ff;
   }
@@ -299,7 +299,7 @@ cursor: pointer;
 .skillbar {
   margin: 2rem 0;
 }
-
+/*this one was implemented at the end which makes it SO MUCH F**ING GOOD LOOKING*/
 .skillbar-box {
   background-color: rgba(48, 48, 48, 0.596);
   padding: 3px 0;
@@ -469,7 +469,7 @@ form {
   -o-animation: btnWiggle 1s infinite;
   animation: btnWiggle 3s infinite;
 }
-
+/*used this wiggle animation on a previous assignment*/
 @keyframes btnWiggle {
   0% { transform: rotate(0deg); }
   86% { transform: rotate(0deg); }
@@ -537,7 +537,7 @@ form {
   width: 100%;
   cursor: pointer;
 }
-
+/*thumbnail pop up full image with JS*/
 #lightbox {
   position: fixed;
   z-index: 100;
@@ -553,12 +553,12 @@ form {
   justify-content: center;
   align-items: center;
 }
-
+/*so it "fits" page*/
 #lightbox img {
   min-width: 30%;
   max-width: 80%;
 }
-
+/*buttons*/
 .gallery-filter {
   text-decoration: none;
   display: inline-block;
@@ -569,11 +569,12 @@ form {
   margin: 4rem 0;
   transition: all 0.4s ease;
 }
-
+/*same hover color from previous button*/
 .gallery-filter:hover {
   background-color: #5499df;
 }
 
+/*i broke this somehow, it used to work
 .image-row1.sort {
   animation: fadeOut 1s ease;
 }
@@ -595,7 +596,7 @@ form {
   100% {
     display: none;
   }
-}
+} */
 
 
 
@@ -607,13 +608,15 @@ footer {
   background-color: #333333;
   color: whitesmoke;
   font-size: 1.6rem;
-  cursor: not-allowed;
+  cursor: not-allowed; /*genius*/
 }
 
 
 
 
 /* JS lib. SuperSlides copycat atempt (carousel) with no slide timer */
+/* The JS part is copied from youtube and stackoverflow, it's everywhere */
+/* Just wanted to show that libs are not needed to do this fancy stuff */
 #slider,
 .header-box,
 .slide-content {
